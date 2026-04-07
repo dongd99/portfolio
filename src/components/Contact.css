@@ -1,0 +1,70 @@
+.contact-section {
+  background-color: var(--surface-color);
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.contact-content {
+  max-width: 700px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-title {
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+  letter-spacing: -1px;
+}
+
+.contact-description {
+  font-size: 1.15rem;
+  color: var(--text-secondary);
+  line-height: 1.8;
+  margin-bottom: 3.5rem;
+}
+
+.email-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.8rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 1.2rem 3rem;
+  background-color: var(--accent-color);
+  color: var(--bg-color);
+  border-radius: 50px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  margin-bottom: 4rem;
+}
+
+.email-button:hover {
+  background-color: #d1d1d1;
+  color: var(--bg-color);
+  transform: translateY(-3px);
+}
+
+.social-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.social-links a {
+  color: var(--text-secondary);
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-links a:hover {
+  color: var(--accent-color);
+  transform: translateY(-3px) scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .contact-title {
+    font-size: 2.8rem;
+  }
+}
