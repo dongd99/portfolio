@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Mail, FolderGit2 as Github, Briefcase as Linkedin, MessageCircle as Twitter } from 'lucide-react';
+import { Mail, Briefcase as Linkedin, MessageCircle as Twitter } from 'lucide-react';
+import { FaGithub } from 'react-icons/fa';
 import './Contact.css';
 
 const Contact = () => {
@@ -25,7 +26,7 @@ const Contact = () => {
           </a>
 
           <div className="social-links">
-            <a href="#" aria-label="GitHub"><Github size={24} /></a>
+            <a href="https://github.com/dongd99" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><FaGithub size={24} /></a>
             <a href="#" aria-label="LinkedIn"><Linkedin size={24} /></a>
             <a href="#" aria-label="Twitter"><Twitter size={24} /></a>
           </div>

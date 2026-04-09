@@ -25,10 +25,18 @@ const Header = () => {
           Portfolio.
         </div>
         <nav className="nav-links">
-          <a href="#home">Home</a>
-          <a href="#about">About</a>
-          <a href="#projects">Work</a>
-          <a href="#contact">Contact</a>
+          {[['home', 'Home'], ['about', 'About'], ['projects', 'Work'], ['contact', 'Contact']].map(([id, label]) => (
+            <a
+              key={id}
+              href={`#${id}`}
+              onClick={(e) => {
+                e.preventDefault();
+                document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+              }}
+            >
+              {label}
+            </a>
+          ))}
         </nav>
       </div>
     </motion.header>

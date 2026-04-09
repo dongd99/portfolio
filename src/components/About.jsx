@@ -8,13 +8,13 @@ const About = () => {
     { name: 'Network', icon: <Layout size={20} /> },
     { name: 'Linux', icon: <Code size={20} /> },
     { name: 'Python', icon: <BookOpen size={20} /> },
-    { name: 'Java', icon: <Database size={20} /> }
+    { name: 'DB', icon: <Database size={20} /> }
   ];
 
   const certifications = [
-    { title: 'AdSp', date: '2025. 05', org: '한국산업인력공단' },
-    { title: 'CCNA', date: '2024. 11', org: 'Cisco' },
-    { title: 'SQL Developer (SQLD)', date: '2024. 08', org: '한국데이터산업진흥원' }
+    { title: 'AdSp', date: '2025. 11', org: '한국데이터산업진흥원' },
+    { title: 'CCNA(예정)', date: '2027. 6', org: 'Cisco' },
+    { title: '정보처리기사(예정)', date: '2027. 08', org: '과학기술정보통신부' }
   ];
 
   return (
@@ -37,13 +37,14 @@ const About = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            <h3>항상 성장하는 개발자</h3>
+            <h3>항상 고민하는 개발자</h3>
             <p>
               안녕하세요, 새로운 기술을 배우고 적용하는 것을 좋아하는 마인드를 가진 개발자입니다.
-              사용자 친화적이고 직관적인 제품을 만드는 데 관심이 많으며, 코드의 품질과 성능을 최적화하기 위해 끊임없이 탐구합니다.
+              항상 왜? 라는 질문과 함께 답을 도출해내고 있습니다.
+              이유 대해 관심이 많으며, 프로젝트의 성능을 최적화하기 위해 끊임없이 탐구합니다.
             </p>
             <p>
-              단순히 기능이 동작하는 것을 넘어서 세련되고 완성도 높은 디지털 경험을 제공하는 것을 목표로 하고 있습니다.
+              기능은 물론이고, 믿고 시킬 수 있는 개발자를 목표로 하고 있습니다.
             </p>
           </motion.div>
 
