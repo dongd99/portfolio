@@ -19,7 +19,7 @@ const Hero = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.5, duration: 1 }}
           >
-            Creative Developer & Designer
+            Creative Developer & Engineer
           </motion.p>
           <motion.h1 
             className="hero-title"
@@ -36,7 +36,7 @@ const Hero = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.6, duration: 1 }}
           >
-            안녕하세요. 네트워크를 전문적으로 다루고, 상상을 현실로 만드는 개발자입니다.<br/>
+            안녕하세요. 네트워크를 전문적으로 공부하고, 상상을 현실로 만드는 개발자입니다.<br/>
             다양한 기술스택과 기획력으로 제 역량을 증명하겠습니다.
           </motion.p>
           <motion.div 
